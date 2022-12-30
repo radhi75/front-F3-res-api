@@ -1,5 +1,5 @@
 body {
-    background: #8383cd !important;
+    background: #f4f4f4 !important;
 
 
 }
@@ -68,7 +68,7 @@ body {
 }
 
 .main-header.fixed-nav #mainMenu li>a::before {
-    background: #000;
+    background: rgba(0, 0, 0, 0);
 }
 
 .main-header {

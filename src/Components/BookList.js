@@ -9,9 +9,18 @@ const BookList = () => {
     dispatch(Get_books());
   }, [dispatch]);
   const books = useSelector((state) => state.books);
-
+  console.log(books);
   return (
-    <div style={{ margin: "10% 30px 20px 10%" }}>
+    <div
+      style={{
+        margin: "10% 30px 20px 10%",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexWrap: "wrap",
+        gap: "20%",
+      }}
+    >
       {books.map((book) => (
         <BookCard key={book._id} book={book} />
       ))}

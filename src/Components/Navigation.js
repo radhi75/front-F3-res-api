@@ -44,7 +44,7 @@ const Navigation = () => {
                     }}
                     href="#about"
                   >
-                    SignIn
+                    Add book
                   </a>
                 </li>
                 <li>
@@ -74,18 +74,16 @@ const Navigation = () => {
                 </li>
 
                 <li>
-                  
-                    <a
-                      style={{
-                        textDecoration: "none",
-                        color: "black",
-                        fontSize: "15px",
-                      }}
-                      href="#contact"
-                    >
-                      contact
-                    </a>
-                 
+                  <a
+                    style={{
+                      textDecoration: "none",
+                      color: "black",
+                      fontSize: "15px",
+                    }}
+                    href="#contact"
+                  >
+                    contact
+                  </a>
                 </li>
               </ul>
             </div>
